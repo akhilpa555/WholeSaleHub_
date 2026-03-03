@@ -245,7 +245,7 @@ export default function ProductListing({ products, onAddToCart, title, showFilte
       <motion.div
         className="products-grid"
         variants={containerVariants}
-        initial="hidden"
+       
         animate="visible"
       >
         {filtered.length > 0 ? (

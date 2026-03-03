@@ -10,7 +10,6 @@ export const categories = [
 ]
 
 export const products = [
-  // Groceries
   {
     id: 1,
     name: "Organic Tomatoes",
@@ -20,7 +19,7 @@ export const products = [
     originalPrice: 60,
     rating: 4.5,
     reviewCount: 128,
-    image: "https://images.unsplash.com/photo-1598512752271-33f913a53133?w=300&h=300&fit=crop",
+    image: "https://picsum.photos/seed/tomatoes/300/300",
     description: "Fresh, organic tomatoes directly from local farms",
     stock: 150,
     unit: "per kg",
@@ -36,7 +35,7 @@ export const products = [
     originalPrice: 45,
     rating: 4.6,
     reviewCount: 95,
-    image: "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=300&h=300&fit=crop",
+    image: "https://picsum.photos/seed/carrots/300/300",
     description: "Crispy and sweet carrots perfect for salads and cooking",
     stock: 200,
     unit: "per pack",
@@ -52,7 +51,7 @@ export const products = [
     originalPrice: 35,
     rating: 4.3,
     reviewCount: 72,
-    image: "https://images.unsplash.com/photo-1518688606217-e707fc6f361f?w=300&h=300&fit=crop",
+    image: "https://picsum.photos/seed/redonion/300/300",
     description: "Premium red onions with strong flavor",
     stock: 180,
     unit: "per pack",
@@ -68,7 +67,7 @@ export const products = [
     originalPrice: 50,
     rating: 4.7,
     reviewCount: 210,
-    image: "https://images.unsplash.com/photo-1571771894824-de6965471a54?w=300&h=300&fit=crop",
+    image: "https://picsum.photos/seed/banana/300/300",
     description: "Golden yellow bananas rich in potassium",
     stock: 300,
     unit: "per kg",
@@ -84,7 +83,7 @@ export const products = [
     originalPrice: 150,
     rating: 4.8,
     reviewCount: 340,
-    image: "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=300&h=300&fit=crop",
+    image: "https://picsum.photos/seed/apples/300/300",
     description: "Crispy red apples imported from Kashmir",
     stock: 250,
     unit: "per pack",
@@ -100,7 +99,7 @@ export const products = [
     originalPrice: 40,
     rating: 4.4,
     reviewCount: 85,
-    image: "https://images.unsplash.com/photo-1576045057995-568f588f2f28?w=300&h=300&fit=crop",
+    image: "https://picsum.photos/seed/spinach/300/300",
     description: "Fresh leafy spinach packed with nutrients",
     stock: 120,
     unit: "per pack",
@@ -108,7 +107,6 @@ export const products = [
     tags: ["vegetables", "healthy", "organic"]
   },
 
-  // Dairy
   {
     id: 7,
     name: "Whole Milk (1L)",
@@ -118,7 +116,7 @@ export const products = [
     originalPrice: 65,
     rating: 4.6,
     reviewCount: 420,
-    image: "https://images.unsplash.com/photo-1563636619-0bda4a2e87d2?w=300&h=300&fit=crop",
+    image: "https://picsum.photos/seed/milk/300/300",
     description: "Pure whole milk from trusted dairy farms",
     stock: 500,
     unit: "per liter",
@@ -134,7 +132,7 @@ export const products = [
     originalPrice: 55,
     rating: 4.5,
     reviewCount: 280,
-    image: "https://images.unsplash.com/photo-1562119432-5735235213a4?w=300&h=300&fit=crop",
+    image: "https://picsum.photos/seed/yogurt/300/300",
     description: "Creamy and delicious plain yogurt",
     stock: 350,
     unit: "per pack",
@@ -150,7 +148,7 @@ export const products = [
     originalPrice: 220,
     rating: 4.7,
     reviewCount: 195,
-    image: "https://images.unsplash.com/photo-1618164436241-4475a44d934b?w=300&h=300&fit=crop",
+    image: "https://picsum.photos/seed/cheese/300/300",
     description: "Premium imported cheddar cheese",
     stock: 100,
     unit: "per pack",
@@ -166,61 +164,32 @@ export const products = [
     originalPrice: 150,
     rating: 4.4,
     reviewCount: 310,
-    image: "https://images.unsplash.com/photo-1628779234038-2d9b9d4b35b6?w=300&h=300&fit=crop",
+    image: "https://picsum.photos/seed/butter/300/300",
     description: "Pure unsalted butter for cooking and baking",
     stock: 200,
     unit: "per pack",
     badge: "Fresh",
     tags: ["butter", "dairy", "cooking"]
   },
+
   {
     id: 11,
-    name: "Paneer (400g)",
-    category: "Dairy",
-    categoryId: 2,
-    price: 150,
-    originalPrice: 185,
-    rating: 4.6,
-    reviewCount: 425,
-    image: "https://images.unsplash.com/photo-1589659318372-a5b75b42aaff?w=300&h=300&fit=crop",
-    description: "Fresh cottage cheese perfect for Indian curries",
-    stock: 280,
-    unit: "per pack",
-    badge: "Fresh",
-    tags: ["cheese", "paneer", "fresh"]
-  },
-
-  // Bakery
-  {
-    id: 12,
     name: "Whole Wheat Bread",
     category: "Bakery",
     categoryId: 3,
     price: 40,
     originalPrice: 50,
     rating: 4.5,
-    reviewCount: 1,
-    image: "https://images.unsplash.com/photo-1534620808146-d336b3624510?w=300&h=300&fit=crop",
+    reviewCount: 100,
+    image: "https://picsum.photos/seed/bread/300/300",
+    description: "Soft and healthy whole wheat bread",
+    stock: 120,
+    unit: "per loaf",
+    badge: "Healthy",
     tags: ["bread", "healthy", "bakery"]
   },
   {
-    id: 13,
-    name: "Croissants (4pcs)",
-    category: "Bakery",
-    categoryId: 3,
-    price: 80,
-    originalPrice: 100,
-    rating: 4.7,
-    reviewCount: 240,
-    image: "https://images.unsplash.com/photo-1533134242443-742a28dd9d38?w=300&h=300&fit=crop",
-    description: "Buttery and flaky French croissants",
-    stock: 80,
-    unit: "per pack",
-    badge: "Fresh",
-    tags: ["pastries", "bakery", "fresh"]
-  },
-  {
-    id: 14,
+    id: 12,
     name: "Chocolate Cake (500g)",
     category: "Bakery",
     categoryId: 3,
@@ -228,33 +197,16 @@ export const products = [
     originalPrice: 320,
     rating: 4.8,
     reviewCount: 380,
-    image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=300&h=300&fit=crop",
+    image: "https://picsum.photos/seed/cake/300/300",
     description: "Rich and moist chocolate cake",
     stock: 50,
     unit: "per cake",
     badge: "Premium",
     tags: ["cake", "chocolate", "bakery"]
   },
-  {
-    id: 15,
-    name: "Multigrain Bread",
-    category: "Bakery",
-    categoryId: 3,
-    price: 50,
-    originalPrice: 65,
-    rating: 4.6,
-    reviewCount: 198,
-    image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=300&h=300&fit=crop",
-    description: "Healthy multigrain bread with seeds",
-    stock: 100,
-    unit: "per loaf",
-    badge: "Healthy",
-    tags: ["bread", "healthy", "organic"]
-  },
 
-  // Beverages
   {
-    id: 16,
+    id: 13,
     name: "Orange Juice (1L)",
     category: "Beverages",
     categoryId: 4,
@@ -262,7 +214,7 @@ export const products = [
     originalPrice: 80,
     rating: 4.5,
     reviewCount: 285,
-    image: "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=300&h=300&fit=crop",
+    image: "https://picsum.photos/seed/juice/300/300",
     description: "Fresh squeezed orange juice",
     stock: 200,
     unit: "per liter",
@@ -270,23 +222,7 @@ export const products = [
     tags: ["juice", "fresh", "healthy"]
   },
   {
-    id: 17,
-    name: "Green Tea (25 bags)",
-    category: "Beverages",
-    categoryId: 4,
-    price: 120,
-    originalPrice: 150,
-    rating: 4.6,
-    reviewCount: 310,
-    image: "https://images.unsplash.com/photo-1597318426071-2a1ae3b46150?w=300&h=300&fit=crop",
-    description: "Premium organic green tea bags",
-    stock: 150,
-    unit: "per pack",
-    badge: "Healthy",
-    tags: ["tea", "healthy", "organic"]
-  },
-  {
-    id: 18,
+    id: 14,
     name: "Coffee Beans (500g)",
     category: "Beverages",
     categoryId: 4,
@@ -294,49 +230,16 @@ export const products = [
     originalPrice: 350,
     rating: 4.7,
     reviewCount: 420,
-    image: "https://images.unsplash.com/photo-1559056199-641a0ac8b8d5?w=300&h=300&fit=crop",
+    image: "https://picsum.photos/seed/coffee/300/300",
     description: "Premium arabica coffee beans",
     stock: 120,
     unit: "per pack",
     badge: "Premium",
     tags: ["coffee", "premium", "imported"]
   },
-  {
-    id: 19,
-    name: "Coca-Cola (1.5L)",
-    category: "Beverages",
-    categoryId: 4,
-    price: 60,
-    originalPrice: 75,
-    rating: 4.4,
-    reviewCount: 215,
-    image: "https://images.unsplash.com/photo-1554866585-d7180ba3c412?w=300&h=300&fit=crop",
-    description: "Refreshing coca-cola beverage",
-    stock: 300,
-    unit: "per bottle",
-    badge: "Popular",
-    tags: ["cola", "beverage", "popular"]
-  },
 
-  // Snacks
   {
-    id: 20,
-    name: "Lay's Potato Chips (50g)",
-    category: "Snacks",
-    categoryId: 5,
-    price: 35,
-    originalPrice: 45,
-    rating: 4.3,
-    reviewCount: 520,
-    image: "https://images.unsplash.com/photo-1599599810694-f3ee39c92d0b?w=300&h=300&fit=crop",
-    description: "Crispy potato chips original flavor",
-    stock: 400,
-    unit: "per pack",
-    badge: "Popular",
-    tags: ["snacks", "chips", "salty"]
-  },
-  {
-    id: 21,
+    id: 15,
     name: "Almonds (250g)",
     category: "Snacks",
     categoryId: 5,
@@ -344,49 +247,16 @@ export const products = [
     originalPrice: 350,
     rating: 4.8,
     reviewCount: 380,
-    image: "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=300&h=300&fit=crop",
+    image: "https://picsum.photos/seed/almonds/300/300",
     description: "Premium raw almonds rich in nutrients",
     stock: 180,
     unit: "per pack",
     badge: "Healthy",
     tags: ["nuts", "healthy", "organic"]
   },
-  {
-    id: 22,
-    name: "Cookies (200g)",
-    category: "Snacks",
-    categoryId: 5,
-    price: 90,
-    originalPrice: 120,
-    rating: 4.5,
-    reviewCount: 295,
-    image: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=300&h=300&fit=crop",
-    description: "Delicious chocolate chip cookies",
-    stock: 200,
-    unit: "per pack",
-    badge: "Popular",
-    tags: ["cookies", "chocolate", "bakery"]
-  },
-  {
-    id: 23,
-    name: "Granola Bar (Pack of 6)",
-    category: "Snacks",
-    categoryId: 5,
-    price: 120,
-    originalPrice: 150,
-    rating: 4.6,
-    reviewCount: 310,
-    image: "https://images.unsplash.com/photo-1597021588519-db089d3744ee?w=300&h=300&fit=crop",
-    description: "Healthy granola bars with oats",
-    stock: 250,
-    unit: "per pack",
-    badge: "Healthy",
-    tags: ["granola", "healthy", "organic"]
-  },
 
-  // Personal Care
   {
-    id: 24,
+    id: 16,
     name: "Dove Soap (75g)",
     category: "Personal Care",
     categoryId: 6,
@@ -394,71 +264,33 @@ export const products = [
     originalPrice: 60,
     rating: 4.5,
     reviewCount: 680,
-    image: "https://images.unsplash.com/photo-1628521579422-a96b758863d1?w=300&h=300&fit=crop",
+    image: "https://picsum.photos/seed/soap/300/300",
     description: "Gentle moisturizing soap bar",
     stock: 500,
     unit: "per piece",
     badge: "Popular",
     tags: ["soap", "skincare", "popular"]
-  },
-  {
-    id: 25,
-    name: "Head & Shoulders Shampoo (200ml)",
-    category: "Personal Care",
-    categoryId: 6,
-    price: 150,
-    originalPrice: 190,
-    rating: 4.6,
-    reviewCount: 450,
-    image: "https://images.unsplash.com/photo-1631729645921-40021122fc76?w=300&h=300&fit=crop",
-    description: "Anti-dandruff shampoo for healthy scalp",
-    stock: 300,
-    unit: "per bottle",
-    badge: "Popular",
-    tags: ["shampoo", "haircare", "popular"]
-  },
-  {
-    id: 26,
-    name: "Colgate Toothpaste (100g)",
-    category: "Personal Care",
-    categoryId: 6,
-    price: 50,
-    originalPrice: 65,
-    rating: 4.4,
-    reviewCount: 520,
-    image: "https://images.unsplash.com/photo-1607101143225-c2a0cff77c6f?w=300&h=300&fit=crop",
-    description: "Cavity protection toothpaste",
-    stock: 600,
-    unit: "per tube",
-    badge: "Popular",
-    tags: ["toothpaste", "dental", "popular"]
-  },
-  {
-    id: 27,
-    name: "Neutrogena Body Lotion (400ml)",
-    category: "Personal Care",
-    categoryId: 6,
-    price: 280,
-    originalPrice: 350,
-    rating: 4.7,
-    reviewCount: 385,
-    image: "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=300&h=300&fit=crop",
-    description: "Lightweight hydrating body lotion",
-    stock: 200,
-    unit: "per bottle",
-    badge: "Premium",
-    tags: ["lotion", "skincare", "premium"]
-  },
+  }
 ]
 
+
+
 export const getProductsByCategory = (categoryId) => {
-  return products.filter(p => p.categoryId === categoryId)
+  return products.filter(p => p.categoryId == categoryId)
 }
 
-export const getFeaturedProducts = (count = 6) => {
+export const getFeaturedProducts = (count) => {
   return [...products]
     .sort((a, b) => b.rating - a.rating)
     .slice(0, count)
+}
+
+export const getAllProducts = () => {
+  return products
+}
+
+export const getProductById = (id) => {
+  return products.find(p => p.id == id)
 }
 
 export const searchProducts = (query) => {
@@ -507,7 +339,7 @@ export const getProductsByTags = (tags) => {
 }
 
 export const getSimilarProducts = (productId, count = 4) => {
-  const product = products.find(p => p.id === productId)
+  const product = products.find(p => p.id == productId)
   if (!product) return []
   
   return products
@@ -530,7 +362,6 @@ export const getDiscountedProducts = (minDiscount = 0) => {
   })
 }
 
-export const getNewArrivals = () => {
-  return [...products].sort((a, b) => b.id - a.id).slice(0, 8)
+export const getNewArrivals = (count) => {
+  return [...products].sort((a, b) => b.id - a.id).slice(0, count)
 }
-
