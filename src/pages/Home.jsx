@@ -36,13 +36,13 @@ export default function Home({ onAddToCart }) {
           </motion.div>
           
           <motion.h1 className="hero-title" variants={fadeIn}>
-            <span className="hero-title-line">Everything You Need</span>
-            <span className="hero-title-line hero-title-gradient">At Your Doorstep</span>
+            <span className="hero-title-line">South Indian Dry and Frozen Foods</span>
+            <span className="hero-title-line">In Wholesale Quantity</span>
+            <span className="hero-title-line hero-title-gradient">Delivered all over UK</span>
           </motion.h1>
           
           <motion.p className="hero-subtitle" variants={fadeIn}>
-            Browse fresh groceries, dairy, bakery, beverages, snacks, and personal care products — 
-            all in one place with the best prices.
+           Browse all dry and frozen items from reputed brands like VIS*** , AS ***, MAL***,MAR***, etc and etc
           </motion.p>
 
           <motion.div className="search-quick-links" variants={fadeIn}>
@@ -50,13 +50,13 @@ export default function Home({ onAddToCart }) {
               <span>🥬</span> All Products
             </Link>
             <Link to="/category/1" className="quick-link">
-              <span>🥕</span> Groceries
+              <span>🥕</span> VIS***
             </Link>
             <Link to="/category/2" className="quick-link">
-              <span>🥛</span> Dairy
+              <span>🥛</span> AS***
             </Link>
             <Link to="/category/3" className="quick-link">
-              <span>🍞</span> Bakery
+              <span>🍞</span> MAL***
             </Link>
           </motion.div>
 
@@ -325,14 +325,14 @@ export default function Home({ onAddToCart }) {
           </div>
 
           <div className="footer-bottom">
-            <p className="footer-copyright">
+            {/* <p className="footer-copyright">
               © 2026 ShopHub. All rights reserved.
             </p>
             <div className="footer-social">
               <a href="#" className="social-link">𝕏</a>
               <a href="#" className="social-link">in</a>
               <a href="#" className="social-link">📘</a>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>
